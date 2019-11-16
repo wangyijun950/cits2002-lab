@@ -2,19 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-void leap_year(int year)
-	{
-	  if(( year%400==0)||(year%4==0&&year%100!=0))
-		{
-		  printf("leap year \n");
-		}
-	  else
-		{
-		  printf("not leap year\n");
-		}
-
-	
-	}
 bool Luhn(char creditcard[])
 	{
 	  int s1=0;
